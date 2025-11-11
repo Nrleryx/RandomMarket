@@ -1,0 +1,15 @@
+name: RandomMarket
+version: 1.0.0
+main: com.randommarket.RandomMarketPlugin
+api-version: 1.19
+author: RandomMarket
+description: Random Market Plugin with GUI
+
+commands:
+  randommarket:
+    description: Opens the random market GUI
+    aliases: [rmarket, rmarket]
+
+depend:
+  - Vault
+

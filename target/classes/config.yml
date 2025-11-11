@@ -1,0 +1,58 @@
+# RandomMarket Plugin Config
+
+# Prefix
+prefix: "&6[&eRandomMarket&6] &r"
+
+# Market Ayarları
+market:
+  # Güncelleme süresi (dakika)
+  update-interval: 5
+  
+  # Fiyat aralıkları
+  price:
+    min: 10.0
+    max: 1000.0
+  
+  # Eşya listesi (her slot için rastgele seçilecek)
+  items:
+    - material: DIAMOND
+      display-name: "&bElmas"
+      min-amount: 1
+      max-amount: 5
+      base-price: 100.0
+    - material: EMERALD
+      display-name: "&aZümrüt"
+      min-amount: 1
+      max-amount: 10
+      base-price: 50.0
+    - material: GOLD_INGOT
+      display-name: "&6Altın Külçe"
+      min-amount: 5
+      max-amount: 20
+      base-price: 30.0
+    - material: IRON_INGOT
+      display-name: "&7Demir Külçe"
+      min-amount: 10
+      max-amount: 32
+      base-price: 15.0
+    - material: COAL
+      display-name: "&8Kömür"
+      min-amount: 16
+      max-amount: 64
+      base-price: 5.0
+    - material: NETHERITE_INGOT
+      display-name: "&5Netherite Külçe"
+      min-amount: 1
+      max-amount: 3
+      base-price: 500.0
+    - material: ENCHANTED_GOLDEN_APPLE
+      display-name: "&6Altın Elma"
+      min-amount: 1
+      max-amount: 5
+      base-price: 200.0
+    - material: BEACON
+      display-name: "&bIşık Kulesi"
+      min-amount: 1
+      max-amount: 2
+      base-price: 800.0
+
