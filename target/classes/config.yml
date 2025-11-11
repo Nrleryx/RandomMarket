@@ -1,4 +1,4 @@
-# RandomMarket Plugin Config
+# RandomMarket
 
 # Prefix
 prefix: "&6[&eRandomMarket&6] &r"
@@ -8,12 +8,12 @@ market:
   # Güncelleme süresi (dakika)
   update-interval: 5
   
-  # Fiyat aralıkları
+  # Fiyat
   price:
     min: 10.0
     max: 1000.0
   
-  # Eşya listesi (her slot için rastgele seçilecek)
+  # Eşya listesi
   items:
     - material: DIAMOND
       display-name: "&bElmas"
