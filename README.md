@@ -7,6 +7,7 @@ Built with **Java & Spigot/Paper API**, this plugin lets players open a random i
 
 ## 🧰 Features
 - Custom GUI-based random market  
+- Items in the shop **refresh randomly every 5 minutes**
 - Automatically updating item prices  
 - Vault economy integration  
 - Configurable update interval  
@@ -42,5 +43,5 @@ Built with **Java & Spigot/Paper API**, this plugin lets players open a random i
 File: `plugins/RandomMarket/config.yml`
 
 ```yaml
-update-interval: 10 # in minutes
+update-interval: 5 # in minutes
 prefix: "&7[&aRandomMarket&7] "
