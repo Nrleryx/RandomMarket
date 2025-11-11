@@ -35,7 +35,6 @@ Built with **Java & Spigot/Paper API**, this plugin lets players open a random i
 | Command | Description |
 |----------|--------------|
 | `/randommarket` | Opens the random market GUI |
-| `/rmarket` | Alias for `/randommarket` |
 
 ---
 
